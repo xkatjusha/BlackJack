@@ -1,0 +1,12 @@
+.frontside{
+    background-image:url("~src/assets/images/textbackground.jpg");
+    font-size: 130px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+    height: 200px;
+    width: 150px;
+    border-radius: 20%;
+    border: lightslategray 2px solid;
+    display: inline-block;
+}

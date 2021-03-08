@@ -1,0 +1,8 @@
+.cardsbacks{
+    height: 200px;
+    width: 150px;
+    border-radius: 20%;
+    border: lightslategray 2px solid;
+    background-color: grey;
+    display: inline-block;
+}

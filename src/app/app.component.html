@@ -1,0 +1,37 @@
+<body>
+  <div>
+      <table>
+          <tr>
+              <th colspan="6">Black Jack</th>
+          </tr>
+          <tr>
+              <td>
+                  <app-stack></app-stack>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <app-my_cards *ngFor="let cardnumber of rules.myCards" [number]="cardnumber"></app-my_cards>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <app-bank_cards *ngFor="let cardnumber of rules.bankCards" [number]="cardnumber"></app-bank_cards>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <app-counter></app-counter>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <button type="button" (click)="rules.stop()">Stop</button>
+              </td>
+              <td>
+                  <button type="button" (click)="rules.return()">Return</button>
+              </td>
+          </tr>
+      </table>
+  </div>
+</body>
